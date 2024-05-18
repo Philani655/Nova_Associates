@@ -1,0 +1,28 @@
+personal email 
+---------------
+app password name :smtp test tool
+password :giczlilkdytwrkuc
+
+
+database(myphpadmin)
+--------------------
+database :id22177042_nova_associates_database
+username :id22177042_nova_associates
+password : Nova_Associates@1
+
+
+login account 000webhostapp
+--------------------------
+password :Unarine@2019
+email : bryannevhutalu7@gmail.com
+
+
+
+start page
+https://nova-associates.000webhostapp.com/PropertiesDesign/index.html
+
+
+myphpadmin
+https://databases.000webhost.com/index.php?route=/database/structure&db=id22177042_nova_associates_database
+username :id22177042_nova_associates
+password : Nova_Associates@1

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0ede8;
+}
+
+.bg-image {
+    height: 100vh;
+    width: 98.78vw;
+    object-fit: cover;
+    position: absolute;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 5px 0;
+  background-color: snow;
+  letter-spacing: 4px;
+}
+
+.navbar-nav li{
+  list-style: none;
+}
+
+.navbar-nav a{
+  text-decoration: none;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.font h1{
+  font-size: 60px;
+  color: rgb(241, 221, 182);
+}
+
+.font p{
+  font-size: 25px;
+  color: rgb(241, 221, 182);
+}
+
+.bg-1 .container{
+  margin-top: 50%;
+  max-width: 70%;
+}
+.bg-2 .container{
+  margin-top: 10%;
+  max-width: 70%;
+}
+.bg-3 .container{
+  margin-top: 10%;
+  max-width: 70%;
+}
+.bg-4 .container{
+  margin-top: 10%;
+  max-width: 70%;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+  .bg-image {
+    height: 100vh;
+    width: 98.78vw;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .bg-image{
+    max-width: 200%;
+  }
+  .bg-1 .container {
+    margin-top: 150%; /* Adjust margin top for better visibility */
+     /* Adjust max-width for better responsiveness */
+  }
+
+  .font h1 {
+    font-size: 40px; /* Adjust font size for better readability */
+  }
+
+  .font p {
+    font-size: 18px; /* Adjust font size for better readability */
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .bg-image {
+    height: 100vh;
+    width: 98.78vw;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .bg-1 .container {
+    margin-top: 90%; /* Adjust margin top for better visibility */ /* Adjust max-width for better responsiveness */
+  }
+
+  .font h1 {
+    font-size: 50px; /* Adjust font size for better readability */
+  }
+
+  .font p {
+    font-size: 22px; /* Adjust font size for better readability */
+  }
+}
+
+/* Media query for desktops */
+@media only screen and (min-width: 1025px) {
+  .font h1{
+    font-size: 60px;
+  }
+  
+  .font p{
+    font-size: 25px;
+  }
+  
+  .bg-1 .container{
+    margin-top: 50%;
+    max-width: 70%;
+  }
+  .bg-2 .container{
+    margin-top: 10%;
+    max-width: 70%;
+  }
+  .bg-3 .container{
+    margin-top: 10%;
+    max-width: 70%;
+  }
+  .bg-4 .container{
+    margin-top: 10%;
+    max-width: 70%;
+  }
+}
